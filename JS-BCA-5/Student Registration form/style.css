@@ -1,0 +1,15 @@
+#sub{
+    background-color: green;
+    color:white;
+    border-style:none;
+    border-radius: 5px;
+    padding: 5px 9px;
+}
+#res{
+    background-color: red;
+    color:white;
+    border-style:none;
+    border-radius: 5px;
+    padding: 5px 9px;
+
+}

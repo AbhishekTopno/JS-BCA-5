@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label>Subjects:</label>
+        <input type="checkbox" id="C++" name="subject" value="C++">
+        <label for="C++">C++</label>
+        <input type="checkbox" id="Python" name="subject" value="Python">
+        <label for="science">Python</label>
+        <input type="checkbox" id="Java" name="subject" value="Java">
+        <label for="english">Java</label>
+        <input type="checkbox" id="operating system" name="subject" value="operating system">
+        <label for="operating system">operating system</label><br><br>
+
+        <button type="submit" id="sub">Submit</button>
+        <button type="reset" id="res">Reset</button>
+    </form>
+</body>
+</html>
+
